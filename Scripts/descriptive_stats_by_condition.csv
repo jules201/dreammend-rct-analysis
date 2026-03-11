@@ -1,0 +1,5 @@
+group,phase,haeufigkeit_mean,haeufigkeit_std,ndq_total_mean,ndq_total_std,nightmare_burden_mean,nightmare_burden_std
+Control,Baseline,5.67,1.11,39.0,8.49,0.04,0.98
+Control,Post,5.71,1.1,36.12,9.82,-0.13,1.15
+Intervention,Baseline,5.93,0.8,35.73,6.51,-0.04,0.62
+Intervention,Post,5.23,0.84,29.9,5.99,-0.79,0.71

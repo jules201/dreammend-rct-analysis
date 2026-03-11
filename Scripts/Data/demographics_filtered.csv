@@ -1,0 +1,35 @@
+VPCode,Alter,Geschlecht,Beschaeftigung,Bereich,Abschluss,Alkoholkonsum,Cannabiskonsum,Alptraumhaeufigkeit,Belastung,Gruppe,VPCode_norm
+ vpcode887312,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,2-3 mal im Monat,Mittel,Kontrollgruppe,887312
+ vpcode278832,25 - 34,weiblich,Vollzeitbeschäftigt,Bildung,Universitätsabschluss,Nie,Nie,2-3 mal im Monat,Keine Belastung,Intervention,278832
+ vpcode147215,18 - 24,weiblich,Studierende,IT und Technologie,Abitur (Allgemeine Hochschulreife),2-3 mal im Monat,Nie,Etwa einmal die Woche,Mittel,Intervention,147215
+ vpcode398717,18 - 24,männlich,Studierende,IT und Technologie,Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,2-3 mal im Monat,Mittel,Kontrollgruppe,398717
+ vpcode654685,18 - 24,männlich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,Etwa einmal die Woche,Mittel,Intervention,654685
+ vpcode713398,18 - 24,männlich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Nie,Nie,Etwa einmal die Woche,Gering,Kontrollgruppe,713398
+ vpcode759386,18 - 24,weiblich,Studierende,Gesundheit und Wellness,Abitur (Allgemeine Hochschulreife),Nie,Nie,2-3 mal im Monat,Gering,Intervention,759386
+ vpcode30900,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Nie,Nie,Etwa einmal die Woche,Gering,Intervention,30900
+ vpcode441958,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Höchstens einmal im Monat,Mehrmals die Woche,Mittel,Intervention,441958
+ vpcode618164,18 - 24,männlich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Nie,Nie,Etwa einmal im Monat,Keine Belastung,Kontrollgruppe,618164
+ vpcode260317,25 - 34,weiblich,Studierende,Gesundheit und Wellness,Abitur (Allgemeine Hochschulreife),Nie,Nie,Mehrmals die Woche,Mittel,Intervention,260317
+ vpcode814447,25 - 34,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,Etwa einmal die Woche,Mittel,Intervention,814447
+ vpcode902980,18 - 24,weiblich,Studierende,Gesundheit und Wellness,Abitur (Allgemeine Hochschulreife),Nie,Nie,2-3 mal im Monat,Mittel,Kontrollgruppe,902980
+ vpcode700439,25 - 34,weiblich,Teilzeitbeschäftigt,Dienstleistung/ Produktion,Abitur (Allgemeine Hochschulreife),2-3 mal im Monat,Mindestens einmal pro Woche,Etwa einmal die Woche,Mittel,Intervention,700439
+ vpcode566395,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,2-3 mal im Monat,Stark,Kontrollgruppe,566395
+ vpcode934778,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,Mehrmals die Woche,Mittel,Kontrollgruppe,934778
+ vpcode174723,25 - 34,weiblich,Vollzeitbeschäftigt,Sonstiges (bitte angeben),Fachhochschulreife,Höchstens einmal im Monat,Nie,Mehrmals die Woche,Stark,Kontrollgruppe,174723
+ vpcode945903,25 - 34,weiblich,Studierende,,Universitätsabschluss,2-3 mal im Monat,Höchstens einmal im Monat,Etwa einmal die Woche,Mittel,Kontrollgruppe,945903
+ vpcode553709,45 - 54,weiblich,,,Realschulabschluss,Höchstens einmal im Monat,Nie,Mehrmals die Woche,,Kontrollgruppe,553709
+ vpcode396507,55 und älter,weiblich,Teilzeitbeschäftigt,,Realschulabschluss,Mindestens einmal pro Woche,Nie,Mehrmals die Woche,Sehr stark,Kontrollgruppe,396507
+ vpcode649016,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),2-3 mal im Monat,Nie,Mehrmals die Woche,Stark,Intervention,649016
+ vpcode964863,35 - 44,weiblich,Vollzeitbeschäftigt,Dienstleistung/ Produktion,Universitätsabschluss,Höchstens einmal im Monat,Nie,Mehrmals die Woche,Gering,Kontrollgruppe,964863
+ vpcode427612,18 - 24,weiblich,Studierende,Gesundheit und Wellness,Abitur (Allgemeine Hochschulreife),2-3 mal im Monat,Nie,2-3 mal im Monat,Mittel,Intervention,427612
+ vpcode179427,18 - 24,weiblich,Studierende,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Nie,Nie,Etwa einmal die Woche,Gering,Intervention,179427
+ vpcode542817,35 - 44,weiblich,Teilzeitbeschäftigt,Bildung,Fachhochschulreife,Nie,Nie,Mehrmals die Woche,Sehr stark,Intervention,87176
+ vpcode92826,45 - 54,männlich,Vollzeitbeschäftigt,Sonstiges (bitte angeben),Universitätsabschluss,2-3 mal im Monat,Nie,2-3 mal im Monat,Stark,Intervention,92826
+ vpcode252657,25 - 34,weiblich,Vollzeitbeschäftigt,Dienstleistung/ Produktion,Universitätsabschluss,2-3 mal im Monat,Nie,2-3 mal im Monat,Gering,Intervention,252657
+ vpcode495553,25 - 34,weiblich,Vollzeitbeschäftigt,Gesundheit und Wellness,Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,Etwa einmal die Woche,Mittel,Kontrollgruppe,495553
+ vpcode844702,45 - 54,weiblich,Vollzeitbeschäftigt,IT und Technologie,Fachhochschulabschluss,Nie,Nie,Etwa einmal die Woche,Gering,Kontrollgruppe,844702
+ vpcode056128,25 - 34,weiblich,Vollzeitbeschäftigt,Bildung,Realschulabschluss,Nie,Nie,2-3 mal im Monat,Mittel,Intervention,56128
+ vpcode327381,45 - 54,männlich,Vollzeitbeschäftigt,Dienstleistung/ Produktion,Hauptschulabschluss,2-3 mal im Monat,Nie,Mehrmals die Woche,Stark,Kontrollgruppe,327381
+ vpcode569078,18 - 24,weiblich,Arbeitslos,Sonstiges (bitte angeben),Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,Mehrmals die Woche,Gering,Kontrollgruppe,569078
+ vpcode131527,18 - 24,männlich,Studierende,IT und Technologie,Abitur (Allgemeine Hochschulreife),2-3 mal im Monat,Nie,Etwa einmal die Woche,Mittel,Kontrollgruppe,131527
+ vpcode750596,18 - 24,weiblich,Studierende,IT und Technologie,Abitur (Allgemeine Hochschulreife),Höchstens einmal im Monat,Nie,2-3 mal im Monat,Gering,Kontrollgruppe,750596

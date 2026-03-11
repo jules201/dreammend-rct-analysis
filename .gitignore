@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+#virtual environment
+venv/
+env/
+#wiso stats
+WISO/
+
+#part_1 because of data security
+TEIL_1/
+willkommen_completed_answers.csv/
