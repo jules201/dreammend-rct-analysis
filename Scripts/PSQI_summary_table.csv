@@ -1,0 +1,11 @@
+group,timepoint,Mean,SD,N
+Control,t0,7.07,2.28,15
+Control,t1,5.64,3.79,14
+Control,t2,7.17,3.21,12
+Control,t3,6.75,2.77,12
+Control,t4,7.36,3.04,11
+Intervention,t0,6.33,3.34,12
+Intervention,t1,6.73,3.0,11
+Intervention,t2,6.44,3.64,9
+Intervention,t3,7.0,1.93,8
+Intervention,t4,7.29,3.15,7

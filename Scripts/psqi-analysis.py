@@ -15,18 +15,49 @@ df = pd.read_csv("Data/Dataset_complete_PSQI.csv")
 # Helper functions
 # =========================
 
+import re
+
 def parse_time(t):
-    """Parse HH:MM strings safely, return NaN if invalid"""
+    """Parse messy time strings from the PSQI dataset into a datetime."""
     if pd.isna(t):
         return np.nan
-    t = str(t).strip()
+    s = str(t).strip()
+
+    # Case 1: clean HH:MM
     try:
-        return datetime.strptime(t, "%H:%M")
+        return datetime.strptime(s, "%H:%M")
     except ValueError:
-        return np.nan
+        pass
+
+    # Case 2: hybrid "H.<junk>:MM" pattern, e.g. "5.0:15" -> 5:15, "22.0:59" -> 22:59
+    m = re.match(r'^(\d{1,2})\.\d*:(\d{1,2})$', s)
+    if m:
+        hour, minute = int(m.group(1)), int(m.group(2))
+        if 0 <= hour <= 23 and 0 <= minute <= 59:
+            return datetime(1900, 1, 1, hour, minute)
+
+    # Case 3: plain float / hour-only value (possibly with float noise), e.g. "22.0000000", "6.000004"
+    try:
+        val = float(s)
+        hour = int(round(val))
+        if hour == 24:
+            hour = 0
+        if 0 <= hour <= 23:
+            return datetime(1900, 1, 1, hour, 0)
+    except ValueError:
+        pass
+
+    return np.nan
 
 def compute_time_in_bed(bedtime, waketime):
     """Return hours in bed, handling midnight crossover"""
+    # if bedtime <= 24:
+    #     sleep= 24-bedtime
+    #     sleep= sleep+waketime
+    # else:
+    #     sleep = waketime - bedtime
+    # return sleep
+
     bed = parse_time(bedtime)
     wake = parse_time(waketime)
     if pd.isna(bed) or pd.isna(wake):
@@ -238,7 +269,7 @@ psqi_table = (
 
 # Optional: round for publication
 psqi_table[['Mean', 'SD']] = psqi_table[['Mean', 'SD']].round(2)
-
+psqi_table.to_csv("PSQI_summary_table.csv", index=False)
 print(psqi_table)
 # =========================
 # 1️⃣ Trajektorien PSQI_global
